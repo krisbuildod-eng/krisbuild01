@@ -600,7 +600,6 @@ function escapeRegExp(string) {
 }
 
 //======================auto play video ============//
-<script>
 document.addEventListener("DOMContentLoaded", function () {
   const video = document.querySelector("video");
   if (video) {
