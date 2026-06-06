@@ -598,3 +598,12 @@ function highlightCardText(card, query) {
 function escapeRegExp(string) {
   return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
+
+//======================auto play video ============//
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const video = document.querySelector("video");
+  if (video) {
+    video.play().catch(() => {});
+  }
+});
